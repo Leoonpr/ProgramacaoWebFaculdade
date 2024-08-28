@@ -1,0 +1,15 @@
+<?php
+// Função para calcular o cubo de um número
+function cubo($numero) {
+    return $numero ** 3;
+}
+
+// Array fornecido
+$array = array(1, 2, 3, 4, 5);
+
+// Aplicando a função cubo em cada elemento do array e armazenando os resultados
+$resultados = array_map('cubo', $array);
+
+// Imprimindo os valores calculados
+echo "Valores calculados: " . implode(", ", $resultados) . "\n";
+?>
