@@ -1,0 +1,97 @@
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título da página */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilizando a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Cabeçalho da tabela */
+thead th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+}
+
+/* Linhas da tabela */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Células da tabela */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Links para remoção e alteração */
+td a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+/* Ícones de remoção */
+td a[href="#"]:first-child {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+td a[href="#"]:first-child:hover {
+  background-color: #c0392b;
+}
+
+/* Ícones de alteração */
+td a[href="#"]:last-child {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Estilizando o link "Criar um Novo Produto" */
+.link-novo {
+  display: inline-block;
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 15px;
+}
+
+.link-novo:hover {
+  background-color: #2ecc71;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+td a[href="#"]:last-child:hover {
+  background-color: #2980b9;
+}

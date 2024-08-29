@@ -2,6 +2,7 @@
 class RepositorioFIlme {
   public function __construct( private readonly PDO $pdo ) {
   }
+  
   public function adicionar( Filme $f ): void {
     $sql = <<<'SQL'
         INSERT INTO filme ( nome, genero )
